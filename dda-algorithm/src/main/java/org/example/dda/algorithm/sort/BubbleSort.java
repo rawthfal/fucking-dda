@@ -42,6 +42,7 @@ public class BubbleSort {
         int flag = nums.length - 1;
         while (flag > 0) {
             k = flag;
+            // 防止有序数组死循环
             flag = 0;
             // nums.length - 1 - i表示本轮需要多少次两两相邻比较
             for (int j = 0; j < k; ++j) {
@@ -58,7 +59,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{1, 3, 4, 6, 8, 2, 9, -1};
+        int[] array = new int[]{8,7,6,5,4,-1};
         sort(array);
         System.out.println(Arrays.toString(array));
     }
