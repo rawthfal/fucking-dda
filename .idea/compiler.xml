@@ -11,5 +11,8 @@
         <module name="dda-algorithm" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fucking-dda-parent" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

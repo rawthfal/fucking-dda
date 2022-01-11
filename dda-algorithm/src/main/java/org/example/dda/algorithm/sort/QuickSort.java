@@ -3,6 +3,13 @@ package org.example.dda.algorithm.sort;
 import java.util.Arrays;
 
 /**
+ * 时间复杂度参考：https://www.jianshu.com/p/45efd93fadae
+ * 快速排序算法是不稳定的，例如数列 5 3 3 4 3 8 9 10 11
+ * 快速排序时间复杂度：
+ * 最好情况下：O(nlgn)
+ * 最坏情况下：O(n*n)
+ * 平均时间复杂度O(nlgn)
+ *
  * @author Williami
  * @description
  * @date 2022/1/4
