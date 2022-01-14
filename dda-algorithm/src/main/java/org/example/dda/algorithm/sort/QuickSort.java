@@ -51,9 +51,11 @@ public class QuickSort {
             while (left < right && nums[left] < pivot) {
                 left++;
             }
+
             if (left < right) {
                 nums[right] = nums[left];
             }
+
             // Pivot最终位置,本轮排序结束
             if (left >= right) {
                 nums[left] = pivot;

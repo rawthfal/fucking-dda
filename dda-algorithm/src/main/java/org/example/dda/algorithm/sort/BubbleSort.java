@@ -1,7 +1,5 @@
 package org.example.dda.algorithm.sort;
 
-import org.example.dda.algorithm.util.ArraysUtil;
-
 import java.util.Arrays;
 
 /**
